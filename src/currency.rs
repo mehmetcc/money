@@ -7,12 +7,10 @@ pub struct Currency {
 }
 
 impl Currency {
-    // Constructor for creating custom currencies
     pub fn new(code: &'static str, symbol: &'static str) -> Self {
         Self { code, symbol }
     }
 
-    // Predefined currencies
     pub const USD: Self = Self {
         code: "USD",
         symbol: "$",
