@@ -1,4 +1,4 @@
-# Money Pattern Library
+# Money
 
 This library provides an implementation of the Money Pattern in Rust, based on the [Money Pattern defined by Martin Fowler](https://martinfowler.com/eaaCatalog/money.html), supporting various currencies, operator overloading for common arithmetic operations, and user-defined currencies.
 
