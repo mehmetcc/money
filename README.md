@@ -14,7 +14,7 @@ money_pattern = { git = "https://github.com/mehmetcc/money" }
 ## Example Usage
 
 ```rust
-use money_pattern::{Money, Currency};
+use money::{Money, Currency};
 use rust_decimal::prelude::*;
 
 fn main() {
