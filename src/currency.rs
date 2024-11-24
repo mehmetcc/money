@@ -1,3 +1,5 @@
+use core::fmt;
+
 #[derive(Debug, Clone, PartialEq, Eq, Hash)]
 pub struct Currency {
     pub code: &'static str,
@@ -30,6 +32,12 @@ impl Currency {
         code: "CNY",
         symbol: "¥",
     };
+}
+
+impl fmt::Display for Currency {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        write!(f, "{} ({})", self.symbol, self.code)
+    }
 }
 
 #[cfg(test)]
