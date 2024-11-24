@@ -44,3 +44,6 @@ fn main() {
     println!("Bitcoin Money: {}", btc_money);
 }
 ```
+
+Command to run tests:
+`cargo test`
