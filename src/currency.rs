@@ -11,6 +11,11 @@ impl Currency {
         Self { code, symbol }
     }
 
+    pub const GBP: Self = Self {
+        code: "GBP",
+        symbol: "£",
+    };
+
     pub const USD: Self = Self {
         code: "USD",
         symbol: "$",
@@ -21,13 +26,13 @@ impl Currency {
         symbol: "€",
     };
 
-    pub const JPY: Self = Self {
-        code: "JPY",
-        symbol: "¥",
-    };
-
     pub const CNY: Self = Self {
         code: "CNY",
+        symbol: "元",
+    };
+
+    pub const JPY: Self = Self {
+        code: "JPY",
         symbol: "¥",
     };
 }
