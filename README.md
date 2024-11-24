@@ -14,7 +14,7 @@ money = { git = "https://github.com/mehmetcc/money" }
 ## Example Usage
 
 ```rust
-use money_pattern::{Money, Currency, Decimal};
+use money::{Money, Currency, Decimal};
 
 fn main() {
     // Creating a new Currency for Bitcoin
